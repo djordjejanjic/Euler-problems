@@ -4,7 +4,6 @@ int main(){
 
 	unsigned int sum = 0;
 	int brojac = 1;
-	int flag = 0;
 	
 	for(unsigned int i = 10000; i < 100000; i++){
 		for(unsigned int j = 1; j <= i; j++){
@@ -20,7 +19,7 @@ int main(){
 			}
 		}
 		if(brojac >= 500){
-			printf("REZULTAT: %d\n", sum);
+			printf("RESULT: %d\n", sum);
 			break;
 		}
 		else{
@@ -29,6 +28,5 @@ int main(){
 		}
 		sum = 0;
 	}
-
 	return 0;
 }
